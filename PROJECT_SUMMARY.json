@@ -1,0 +1,52 @@
+{
+  "backup_info": {
+    "date": "2025-06-28T22:47:51.596996",
+    "repository": "https://github.com/danieladamrosen/CreditApp-Backup-2025-06-28--22-45",
+    "method": "Selective GitHub API upload"
+  },
+  "project": {
+    "name": "Credit Repair Dashboard",
+    "description": "AI-powered credit repair dashboard with React and TypeScript",
+    "status": "Stable production build with AI scan reminder functionality",
+    "technologies": {
+      "frontend": [
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Material-UI",
+        "Shadcn/ui"
+      ],
+      "backend": [
+        "Express.js",
+        "TypeScript",
+        "Drizzle ORM"
+      ],
+      "database": [
+        "PostgreSQL",
+        "In-memory storage fallback"
+      ],
+      "ai": [
+        "OpenAI API",
+        "Metro 2/FCRA/FDCPA compliance scanning"
+      ]
+    }
+  },
+  "features": [
+    "AI-powered compliance violation detection",
+    "Interactive credit report visualization",
+    "Automated dispute letter generation",
+    "Multi-bureau credit score display",
+    "Personal information dispute workflows",
+    "Hard inquiry management and scoring",
+    "Public records dispute handling",
+    "Real-time progress tracking"
+  ],
+  "recent_updates": [
+    "AI scan reminder area implementation",
+    "Enhanced post-scan user experience",
+    "Visual consistency improvements",
+    "Comprehensive error handling",
+    "Performance optimizations"
+  ]
+}
