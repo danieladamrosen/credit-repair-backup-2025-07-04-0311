@@ -1,0 +1,384 @@
+{
+  "timestamp": "2025-06-29T22:31:27.676Z",
+  "summary": [
+    {
+      "section": "Credit Summary",
+      "passFields": 5,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Credit Summary",
+          "field": "totalAccounts",
+          "status": "PASS",
+          "expected": 55,
+          "actual": 55
+        },
+        {
+          "section": "Credit Summary",
+          "field": "openAccounts",
+          "status": "PASS",
+          "expected": 35,
+          "actual": 35
+        },
+        {
+          "section": "Credit Summary",
+          "field": "totalBalance",
+          "status": "PASS",
+          "expected": 344317,
+          "actual": 344317
+        },
+        {
+          "section": "Credit Summary",
+          "field": "negativeAccounts",
+          "status": "PASS",
+          "expected": 17,
+          "actual": 17
+        },
+        {
+          "section": "Credit Summary",
+          "field": "publicRecords",
+          "status": "PASS",
+          "expected": 3,
+          "actual": 3
+        }
+      ]
+    },
+    {
+      "section": "Personal Information",
+      "passFields": 7,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Personal Information",
+          "field": "firstName",
+          "status": "PASS"
+        },
+        {
+          "section": "Personal Information",
+          "field": "lastName",
+          "status": "PASS"
+        },
+        {
+          "section": "Personal Information",
+          "field": "middleName",
+          "status": "PASS",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "section": "Personal Information",
+          "field": "ssn",
+          "status": "PASS"
+        },
+        {
+          "section": "Personal Information",
+          "field": "dateOfBirth",
+          "status": "PASS"
+        },
+        {
+          "section": "Personal Information",
+          "field": "addressCount",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0
+        },
+        {
+          "section": "Personal Information",
+          "field": "employerCount",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0
+        }
+      ]
+    },
+    {
+      "section": "Hard Inquiries",
+      "passFields": 3,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Hard Inquiries",
+          "field": "totalInquiries",
+          "status": "PASS",
+          "expected": 28,
+          "actual": 28
+        },
+        {
+          "section": "Hard Inquiries",
+          "field": "recentInquiries",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0
+        },
+        {
+          "section": "Hard Inquiries",
+          "field": "olderInquiries",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0
+        }
+      ]
+    },
+    {
+      "section": "Positive & Closed Accounts",
+      "passFields": 1,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Positive & Closed Accounts",
+          "field": "totalCount",
+          "status": "PASS",
+          "expected": 38,
+          "actual": 38
+        }
+      ]
+    },
+    {
+      "section": "Negative Accounts",
+      "passFields": 1,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Negative Accounts",
+          "field": "totalCount",
+          "status": "PASS",
+          "expected": 17,
+          "actual": 17
+        }
+      ]
+    },
+    {
+      "section": "Public Records",
+      "passFields": 1,
+      "failFields": 0,
+      "details": [
+        {
+          "section": "Public Records",
+          "field": "totalCount",
+          "status": "PASS",
+          "expected": 3,
+          "actual": 3
+        }
+      ]
+    }
+  ],
+  "rawResults": [
+    {
+      "section": "Credit Summary",
+      "field": "totalAccounts",
+      "status": "PASS",
+      "expected": 55,
+      "actual": 55
+    },
+    {
+      "section": "Credit Summary",
+      "field": "openAccounts",
+      "status": "PASS",
+      "expected": 35,
+      "actual": 35
+    },
+    {
+      "section": "Credit Summary",
+      "field": "totalBalance",
+      "status": "PASS",
+      "expected": 344317,
+      "actual": 344317
+    },
+    {
+      "section": "Credit Summary",
+      "field": "negativeAccounts",
+      "status": "PASS",
+      "expected": 17,
+      "actual": 17
+    },
+    {
+      "section": "Credit Summary",
+      "field": "publicRecords",
+      "status": "PASS",
+      "expected": 3,
+      "actual": 3
+    },
+    {
+      "section": "Personal Information",
+      "field": "firstName",
+      "status": "PASS"
+    },
+    {
+      "section": "Personal Information",
+      "field": "lastName",
+      "status": "PASS"
+    },
+    {
+      "section": "Personal Information",
+      "field": "middleName",
+      "status": "PASS",
+      "expected": null,
+      "actual": null
+    },
+    {
+      "section": "Personal Information",
+      "field": "ssn",
+      "status": "PASS"
+    },
+    {
+      "section": "Personal Information",
+      "field": "dateOfBirth",
+      "status": "PASS"
+    },
+    {
+      "section": "Personal Information",
+      "field": "addressCount",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "section": "Personal Information",
+      "field": "employerCount",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "section": "Hard Inquiries",
+      "field": "totalInquiries",
+      "status": "PASS",
+      "expected": 28,
+      "actual": 28
+    },
+    {
+      "section": "Hard Inquiries",
+      "field": "recentInquiries",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "section": "Hard Inquiries",
+      "field": "olderInquiries",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "section": "Positive & Closed Accounts",
+      "field": "totalCount",
+      "status": "PASS",
+      "expected": 38,
+      "actual": 38
+    },
+    {
+      "section": "Negative Accounts",
+      "field": "totalCount",
+      "status": "PASS",
+      "expected": 17,
+      "actual": 17
+    },
+    {
+      "section": "Public Records",
+      "field": "totalCount",
+      "status": "PASS",
+      "expected": 3,
+      "actual": 3
+    }
+  ],
+  "creditDataStructure": {
+    "totalAccounts": 55,
+    "totalInquiries": 28,
+    "totalPublicRecords": 3,
+    "borrowersCount": 0,
+    "addressesCount": 0,
+    "employersCount": 0
+  },
+  "sampleAccountFields": [
+    "@CreditLiabilityID",
+    "@BorrowerID",
+    "@CreditFileID",
+    "@CreditTradeReferenceID",
+    "@_AccountBalanceDate",
+    "@_AccountIdentifier",
+    "@_AccountOpenedDate",
+    "@_AccountOwnershipType",
+    "@_AccountReportedDate",
+    "@_AccountStatusDate",
+    "@_AccountStatusType",
+    "@_AccountType",
+    "@_ConsumerDisputeIndicator",
+    "@_DerogatoryDataIndicator",
+    "@_HighBalanceAmount",
+    "@_LastActivityDate",
+    "@_MonthlyPaymentAmount",
+    "@_MonthsReviewedCount",
+    "@_TermsMonthsCount",
+    "@_TermsDescription",
+    "@_TermsSourceType",
+    "@_UnpaidBalanceAmount",
+    "@CreditBusinessType",
+    "@CreditLoanType",
+    "@CreditLoanTypeCode",
+    "@_OriginalBalanceAmount",
+    "@IsMortgageIndicator",
+    "@IsClosedIndicator",
+    "@IsCollectionIndicator",
+    "@IsChargeoffIndicator",
+    "@RawAccountType",
+    "@RawIndustryText",
+    "@RawIndustryCode",
+    "@TradelineHashComplex",
+    "@TradelineHashSimple",
+    "@ArrayAccountIdentifier",
+    "_CREDITOR",
+    "_CURRENT_RATING",
+    "_LATE_COUNT",
+    "_PAYMENT_PATTERN",
+    "CREDIT_COMMENT",
+    "CREDIT_REPOSITORY"
+  ],
+  "sampleInquiryFields": [
+    "@CreditInquiryID",
+    "@BorrowerID",
+    "@CreditFileID",
+    "@_Name",
+    "@_StreetAddress",
+    "@_City",
+    "@_State",
+    "@_PostalCode",
+    "@_Phone",
+    "@_Date",
+    "@CreditBusinessType",
+    "@RawIndustryText",
+    "@RawIndustryCode",
+    "@_PurposeType",
+    "@InquiryHashComplex",
+    "@InquiryHashSimple",
+    "CREDIT_REPOSITORY"
+  ],
+  "samplePublicRecordFields": [
+    "@CreditPublicRecordID",
+    "@BorrowerID",
+    "@CreditFileID",
+    "@_AccountIdentifier",
+    "@_AccountStatusType",
+    "@_AccountType",
+    "@_ConsumerDisputeIndicator",
+    "@_FilingDate",
+    "@_StatusDate",
+    "@_DischargeDate",
+    "@_LiabilityAmount",
+    "@_AssetAmount",
+    "@publicRecordType",
+    "@courtName",
+    "@courtAddress",
+    "@courtCity",
+    "@courtState",
+    "@courtPostalCode",
+    "@courtPhone",
+    "@caseNumber",
+    "@trustee",
+    "@attorneyName",
+    "@attorneyPhone",
+    "@remarks",
+    "@_StatusDescription",
+    "CREDIT_REPOSITORY"
+  ]
+}
